@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{
+      margin:0;
+      box-sizing: border-box;
+      padding:0;
+    }
+    section.pagamento{
+      display: flex;
+      max-width: 1100px;
+      justify-content: space-around;
+      padding:0 2%;
+      margin: 90px auto;
+    }
+    .descriçao-pagamento{
+      width:50%;
+    }
+    .descriçao-pagamento h3{
+      color: rgb(140, 140, 140);
+    }
+    .descriçao-pagamento h2{
+      color: black;
+      font-size: 40px;
+    }
+
+    .form-pagamento{
+      box-shadow: -8px 5px 15px 5px #c7c7c7;
+      box-shadow: -8px 5px 15px 5px #c7c7c7; 
+      padding:30px 30px 80px 30px;
+      width: 50%;
+
+    }
+    .form-pagamento form{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .forme-100{width: 100%; margin-bottom: 18px;}
+    .forme-50{width: 100%; display: flex;margin-bottom: 10px;}
+
+    .form-pagamento label{
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: rgb(140, 140, 140);
+    }
+  .form-pagamento input[type=text]{
+    width: 100%;
+    height: 40%;
+    border: 2px solid #ccc;
+  }
+
+  .form-pagamento input[type=submit]{
+    width:100%;
+    height:30px;
+    border:1;
+    cursor: pointer;
+    background-color: rgb(255, 4, 4);
+    color: white;
+  }
+
+  </style>
+  <title>pagamento</title>
+</head>
+<body> 
+  </div>
+  <section class="pagamento">
+  <div class="descriçao pagamento">
+  <h3>FIFA 22</h3> 
+  <h6>O jogo de futebol mais famoso do mundo.</h6>
+  <h2>valor:R$ 200</h2>
+  <h4>para pagar com boleto 
+   <a href="https://miro.medium.com/max/640/0*i1v1In2Tn4Stnwnl.jpg" target="_blank">clike aqui</a>
+  </h4>
+  <div>
+  <img src="https://images-americanas.b2w.io/produtos/4201545728/imagens/fifa-22-ps4/4201545728_1_xlarge.jpg" class="d-block w-60">
+</div>  
+</div>
+  <div class="form-pagamento">
+    <form method="POST">
+      <div class="form-100">
+        <label>E-mail </label>
+        <input type="text">
+      </div>
+   
+      <div class="form-100">
+      <label> Dados do cartão</label>
+        <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" />
+        <div class="form-50">
+          <input magin-top: -1px; type="text" placeholder="Valid:" />
+          <input style="margin-left: -1px; margin-top: -1px;"; type="text" placeholder=CVC />
+        </div>
+        <div class="form-100">
+           <input type="text" placeholder="nome no cartão:" /> 
+        </div>
+        <div class="form-100">
+          <input type="submit" name="acao" value="Pagar" />
+       </div>
+       
+       </div>
+       </div>
+        </div>
+    </form>
+    </div>
+  </div>
+  </section><!--pagamento-->
+  
+</body>
+</html>
